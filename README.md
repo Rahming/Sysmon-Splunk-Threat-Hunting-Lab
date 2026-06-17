@@ -28,7 +28,7 @@ Deploy Sysmon, forward logs to Splunk, simulate malicious activity, and investig
 
 6. Correlate Sysmon events
 
-## Sysmon and Attack Simulation 
+## Lab Setup
 1. Downloaded Sysmon with SwiftOnSecurity configuration
 
 <img width="799" height="293" alt="Screenshot (304)" src="https://github.com/user-attachments/assets/2fd2e2b0-c120-4a02-beb3-8f5ace50aa6c" />
@@ -94,4 +94,4 @@ Shows HelloSysmon.exe conection to the windowsVM(192.168.112.132) on port 31337
 - SPL query development
 
 # Conclusion
-Sysmon was downloaded to monitor malicous activity and forwarded to splunk for deeper investigation
+This project demonstrated how Sysmon and Splunk can be used together to detect and investigate endpoint activity. By correlating file download, process creation, and network connection events, it was possible to reconstruct the full attack chain and validate telemetry collection through centralized logging.
