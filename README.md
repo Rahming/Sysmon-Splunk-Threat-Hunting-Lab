@@ -69,7 +69,7 @@ Event ID 3 - Network Connection
 <img width="1465" height="337" alt="Screenshot (327)" src="https://github.com/user-attachments/assets/fd7fe84d-13dd-4bb5-ae3a-69d55dbb69df" />
 Shows HelloSysmon.exe conection to the windowsVM(192.168.112.132) on port 31337
 
-##TimeLine
+## TimeLine
 
 |Time|Event|
 |----|----|
@@ -77,7 +77,7 @@ Shows HelloSysmon.exe conection to the windowsVM(192.168.112.132) on port 31337
 |23:00:33|HelloSysmon.exe executed|
 |23:00:34|Network connection established|
 
-##Relevant MITRE ATT&CK Techniques
+## Relevant MITRE ATT&CK Techniques
 |Technique|Description|
 |---------|-----------|
 |T1105| Ingress Tool Transfer|
