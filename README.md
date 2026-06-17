@@ -16,7 +16,7 @@ Deploy Sysmon, forward logs to Splunk, simulate malicious activity, and investig
 |Ubuntu Server(VMware)| Splunk Enterprise SIEM|
 
 ## Objectives
-1. Deploy Sysmon using the SwiftOnSecurity configuration
+1. Downlaod Sysmon using the SwiftOnSecurity configuration
 
 2. Configure Splunk Universal Forwarder
 
@@ -83,6 +83,15 @@ Shows HelloSysmon.exe conection to the windowsVM(192.168.112.132) on port 31337
 |T1105| Ingress Tool Transfer|
 |T1204| User Execution|
 |T1071| Application Layer Protocol
+## Skills Learned
+- Sysmon deployment and configuration
+- Splunk administration
+- Log forwarding
+- Threat hunting
+- Endpoint monitoring
+- Event correlation
+- IOC analysis
+- SPL query development
 
 # Conclusion
 Sysmon was downloaded to monitor malicous activity and forwarded to splunk for deeper investigation
